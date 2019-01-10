@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/iwilliam317/node-unit-test/issues"
   },
-  "homepage": "https://github.com/iwilliam317/node-unit-test#readme"
+  "homepage": "https://github.com/iwilliam317/node-unit-test#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }

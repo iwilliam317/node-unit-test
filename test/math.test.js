@@ -3,10 +3,10 @@ const chai = require('chai')
 const expect = chai.expect
 
 describe('math', () => {
-    context('function sum', () => {
+    context('function sum()', () => {
         
         let result;        
-
+        console.log('PROCESS', process.env)
         before(() => {
             result = math.sum(1,1)
         })

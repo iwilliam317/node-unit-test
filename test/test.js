@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-describe('String', () => {
+describe('test', () => {
 
     before(() => {
         console.log('##### BEFORE #####')

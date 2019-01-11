@@ -1,4 +1,4 @@
-const math = require('../math')
+const math = require('../src/math')
 const chai = require('chai')
 const expect = chai.expect
 

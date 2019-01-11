@@ -6,7 +6,7 @@ describe('math', () => {
     context('function sum()', () => {
         
         let result;        
-        console.log('PROCESS', process.env)
+        
         before(() => {
             result = math.sum(1,1)
         })

@@ -1,3 +1,5 @@
 const sum = (a , b) => a + b
 
-module.exports = { sum }
+const square = a => a ** 2
+
+module.exports = { sum, square }

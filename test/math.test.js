@@ -23,8 +23,18 @@ describe('math', () => {
             result = math.square(2)
         })
 
-        it('should return ', () => {
+        it('should return 4 when square 2', () => {
             expect(result).to.be.equal(4)
+        })
+    })
+
+    context('sumWithCallback', () => {
+        it('should test the callback', done => {
+            math.sumWithCallback(3, 3, (error, result) => {
+                expect(result).to.equal(6)
+                expect(error).to.not.exist
+                done()
+            })
         })
     })
 })

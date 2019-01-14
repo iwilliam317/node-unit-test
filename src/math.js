@@ -9,4 +9,10 @@ const sumWithCallback = (a, b, callback) => {
    
 }
 
+const sumWithPromise = (a, b) => {
+    return new Promise((resolve, reject) => {
+        resolve(a + b)
+    })
+}
+
 module.exports = { sum, square, sumWithCallback }

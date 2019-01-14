@@ -15,8 +15,4 @@ const sumWithPromise = (a, b) => {
     })
 }
 
-const log = () => {
-    console.log('logging..')
-}
-
 module.exports = { sum, square, sumWithCallback, sumWithPromise }

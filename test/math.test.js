@@ -36,5 +36,13 @@ describe('math', () => {
                 done()
             })
         })
+
+        it('should test the callback with promise', done => {
+            math.sumWithPromise(4, 4).then(res => {
+                expect(res).to.be.equal(8)
+                done()
+            })
+        })
     })
+    
 })

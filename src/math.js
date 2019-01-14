@@ -15,4 +15,4 @@ const sumWithPromise = (a, b) => {
     })
 }
 
-module.exports = { sum, square, sumWithCallback }
+module.exports = { sum, square, sumWithCallback, sumWithPromise }

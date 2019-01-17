@@ -26,4 +26,11 @@ context('car', () => {
         })
     })
     
+    describe('setModel()', () => {
+        it('should set BMW M5 as new model', () => {
+            car.setModel('BMW M5')
+            expect(car.getModel()).to.be.equal('BMW M5')
+        })
+    })
+    
 })

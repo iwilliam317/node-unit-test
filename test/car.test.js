@@ -19,10 +19,10 @@ context('car', () => {
         })
 
         it('should have getModel() to be called once', () => {
-            let mySpy = sinon.spy(car, 'getModel')
+            const spy = sinon.spy(car, 'getModel')
             car.getModel()
-            expect(mySpy).to.have.been.calledOnce
-            
+            expect(spy).to.have.been.calledOnce
+            expect(spy).to.have.been.callCount(1)
         })
     })
     

@@ -6,6 +6,10 @@ class Car {
     getModel(){
         return this.model
     }
+
+    setModel(model){
+        this.model = model
+    }
 }
 
 module.exports =  Car

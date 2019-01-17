@@ -31,6 +31,8 @@ context('car', () => {
             car.setModel('BMW M5')
             expect(car.getModel()).to.be.equal('BMW M5')
         })
+
+        it('should stub setModel')
     })
     
 })

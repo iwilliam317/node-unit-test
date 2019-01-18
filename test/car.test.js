@@ -30,6 +30,7 @@ context('car', () => {
         it('should set BMW M5 as new model', () => {
             car.setModel('BMW M5')
             expect(car.getModel()).to.be.equal('BMW M5')
+            expect(car.getModel()).not.to.be.equal('Ferrari 458')
         })
 
         it('should stub setModel')
